@@ -13,6 +13,7 @@ import {
   UserCheck
 } from 'lucide-react';
 import { PropertyInquiry, InquiryFormData } from '../types';
+import consultationImg from '../assets/images/inquiry_consultation_1794357846173.jpg';
 
 export function CashOfferForm() {
   const [formData, setFormData] = useState<InquiryFormData>({
@@ -181,7 +182,7 @@ export function CashOfferForm() {
             {/* Professional Photograph */}
             <div className="relative rounded-xl overflow-hidden shadow-xl border border-white/10 hidden sm:block">
               <img
-                src="/src/assets/images/inquiry_consultation_1794357846173.jpg"
+                src={consultationImg}
                 alt="Acquisitions specialist consulting with homeowners"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 lg:h-64 object-cover"

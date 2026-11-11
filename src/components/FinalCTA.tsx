@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Phone, ShieldCheck } from 'lucide-react';
+import finalCtaImg from '../assets/images/final_cta_home_1794357846376.jpg';
 
 interface FinalCTAProps {
   onGetOfferClick: () => void;
@@ -11,7 +12,7 @@ export function FinalCTA({ onGetOfferClick }: FinalCTAProps) {
       {/* Full-width Background Photograph */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/final_cta_home_1794357846376.jpg"
+          src={finalCtaImg}
           alt="Suburban family residence in North Carolina at dusk"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center"

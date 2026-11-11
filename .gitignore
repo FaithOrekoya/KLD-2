@@ -6,3 +6,7 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Ensure assets and images are tracked in git
+!src/assets/**
+!public/**

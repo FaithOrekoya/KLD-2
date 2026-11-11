@@ -1,5 +1,6 @@
 import React from 'react';
 import { DollarSign, Wrench, Percent, Calendar, ShieldCheck } from 'lucide-react';
+import whySellImg from '../assets/images/why_sell_property_1794357845609.jpg';
 
 export function WhyChooseUs() {
   const benefits = [
@@ -56,7 +57,7 @@ export function WhyChooseUs() {
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200/80 group">
               <img
-                src="/src/assets/images/why_sell_property_1794357845609.jpg"
+                src={whySellImg}
                 alt="Beautiful suburban home purchased as-is"
                 referrerPolicy="no-referrer"
                 className="w-full h-[400px] sm:h-[480px] lg:h-[540px] object-cover group-hover:scale-102 transition-transform duration-500"

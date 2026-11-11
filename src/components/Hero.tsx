@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, PhoneCall } from 'lucide-react';
+import heroImg from '../assets/images/hero_residential_home_1794357844563.jpg';
 
 interface HeroProps {
   onGetOfferClick: () => void;
@@ -12,7 +13,7 @@ export function Hero({ onGetOfferClick, onHowItWorksClick }: HeroProps) {
       {/* Full-width Background Photograph */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_residential_home_1794357844563.jpg"
+          src={heroImg}
           alt="Attractive residential home with front porch"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center"
